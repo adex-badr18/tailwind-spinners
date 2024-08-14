@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   return (
     // <!-- Page Container -->
-<div className="flex items-center justify-center min-h-screen bg-white">
+<div className="flex items-center justify-center min-h-screen bg-red-500">
     <div className="flex flex-col">
         <div className="flex space-x-24">
             {/* <!-- Regular Spinners --> */}
@@ -443,11 +443,11 @@ function App() {
         </div>
 
         {/* <!-- Notes --> */}
-        <span className="text-center font-bold mt-40">
+        {/* <span className="text-center font-bold mt-40">
             <a href="https://egoistdeveloper.github.io/twcss-to-sass-playground/" target="_blank" className="text-blue-600">
                 Convetert to SASS
             </a>
-        </span>
+        </span> */}
     </div>
 </div>
   )
